@@ -10,8 +10,14 @@ Just having fun making a multistep form with backbone. This example is made in R
     # install gems
     bundle
 
+    # Run mongod service just in case it didn't start
+    sudo mongod 
+
     # starting rails server
     rails s
+
+    # View in broswer
+    127.0.0.1:3000
 
 ## Todo
 
